@@ -1,0 +1,329 @@
+WEBVTT
+
+1
+00:00:03.920 --> 00:00:09.137
+Proxima Centauri is the nearest star to the Sun, about 4.2 light-years away.
+
+2
+00:00:09.587 --> 00:00:13.646
+A planet, Proxima b, goes around it once in about 11 days.
+
+3
+00:00:14.120 --> 00:00:18.168
+Some scientists study small probes that could fly past this planet.
+
+4
+00:00:18.620 --> 00:00:22.204
+At one fifth of the speed of light, the trip takes more than 20 years.
+
+5
+00:00:22.687 --> 00:00:26.072
+Aiming such a probe needs a prediction, made before launch,
+
+6
+00:00:26.072 --> 00:00:28.998
+of where the planet will be when the probe arrives.
+
+7
+00:00:29.453 --> 00:00:34.386
+This paper asks a simple question: how well can we know that position before launch?
+
+8
+00:00:35.720 --> 00:00:39.706
+Picture a flat sheet at the planet, at right angles to the probe's path.
+
+9
+00:00:40.153 --> 00:00:41.608
+We call it the target plane.
+
+10
+00:00:42.053 --> 00:00:45.972
+The data have errors, so the paper cannot predict one exact point.
+
+11
+00:00:46.420 --> 00:00:49.858
+Instead, it gets a cloud of possible positions on the sheet.
+
+12
+00:00:50.286 --> 00:00:54.144
+Now draw the smallest circle that holds 90% of the cloud.
+
+13
+00:00:54.586 --> 00:00:56.683
+Its radius is called r₉₀ ("r ninety").
+
+14
+00:00:57.120 --> 00:01:02.194
+A small r₉₀ means a sharp prediction. A large r₉₀ means a vague one.
+
+15
+00:01:03.220 --> 00:01:04.650
+How small is small enough?
+
+16
+00:01:05.086 --> 00:01:11.006
+One published study says the total error must be about 100,000 km or less.
+
+17
+00:01:11.453 --> 00:01:14.951
+That is about one quarter of the distance from the Earth to the Moon.
+
+18
+00:01:15.386 --> 00:01:20.321
+The paper uses this value as one mark, not as the only possible requirement.
+
+19
+00:01:20.753 --> 00:01:26.065
+So it tests 13 radii, from 10,000 km to 10 million km.
+
+20
+00:01:27.086 --> 00:01:30.591
+To make the prediction, the paper combines two kinds of data.
+
+21
+00:01:31.020 --> 00:01:34.339
+The Gaia space telescope measured the star's position,
+
+22
+00:01:34.339 --> 00:01:36.552
+distance, and motion across the sky.
+
+23
+00:01:37.020 --> 00:01:41.671
+Radial velocities measure how fast the star moves toward us and away from us,
+
+24
+00:01:41.671 --> 00:01:43.242
+as the planet pulls on it.
+
+25
+00:01:43.720 --> 00:01:46.160
+The model moves the star along its path,
+
+26
+00:01:46.160 --> 00:01:49.942
+with a small pull from the bright pair Alpha Centauri A and B.
+
+27
+00:01:50.386 --> 00:01:53.245
+It moves the planet along its orbit around the star.
+
+28
+00:01:53.720 --> 00:01:58.823
+Another planet, Proxima d, and Einstein's gravity slowly turn the orbit of b.
+
+29
+00:01:59.286 --> 00:02:02.268
+If the model leaves out planet d,
+
+30
+00:02:02.268 --> 00:02:07.056
+the predicted position moves by 36,000 to 212,000 km.
+
+31
+00:02:07.486 --> 00:02:10.332
+That is about the same size as the mark. The
+
+32
+00:02:10.332 --> 00:02:13.629
+model for future observations includes this effect.
+
+33
+00:02:14.652 --> 00:02:15.890
+Next, a fair test.
+
+34
+00:02:16.319 --> 00:02:20.558
+The paper fixed its rules in writing before it ran each computation.
+
+35
+00:02:20.986 --> 00:02:23.415
+It also uses eight versions of the model.
+
+36
+00:02:23.852 --> 00:02:26.459
+They make different choices about the planet,
+
+37
+00:02:26.459 --> 00:02:28.949
+the star, and the orientation of the orbit.
+
+38
+00:02:29.386 --> 00:02:34.980
+A test radius counts as reached only if r₉₀ is inside it in all eight versions.
+
+39
+00:02:35.419 --> 00:02:38.665
+If r₉₀ is outside it in all eight, it is not reached.
+
+40
+00:02:39.086 --> 00:02:42.283
+If the versions disagree, the answer is undecided.
+
+41
+00:02:42.719 --> 00:02:44.676
+And undecided never means no.
+
+42
+00:02:45.919 --> 00:02:47.582
+So what do today's data give?
+
+43
+00:02:48.019 --> 00:02:54.766
+At the launch years on the list, r₉₀ is 7.2 to 9.45 million km.
+
+44
+00:02:55.186 --> 00:03:00.441
+That is about the size of the planet's orbit, and about 70 to 95 times the mark.
+
+45
+00:03:00.886 --> 00:03:04.766
+Better data for any single input, alone, does not reach the mark.
+
+46
+00:03:05.186 --> 00:03:09.527
+Among the largest parts of the error is the orientation of the orbit:
+
+47
+00:03:09.527 --> 00:03:11.603
+how the orbit is turned in space.
+
+48
+00:03:12.052 --> 00:03:14.094
+Radial velocities do not measure it.
+
+49
+00:03:15.319 --> 00:03:18.600
+Next, the paper adds possible future observations.
+
+50
+00:03:19.019 --> 00:03:21.670
+Their quality is an assumption, not a forecast.
+
+51
+00:03:22.119 --> 00:03:26.414
+The list includes pictures that show the planet apart from its star,
+
+52
+00:03:26.414 --> 00:03:27.867
+more precise Gaia data,
+
+53
+00:03:27.867 --> 00:03:32.351
+more radial velocities, and a more precise speed of the star toward us.
+
+54
+00:03:32.786 --> 00:03:37.545
+There is one more problem. The planet goes around its star in about 11 days,
+
+55
+00:03:37.545 --> 00:03:40.363
+so a change of a few days in the arrival time
+
+56
+00:03:40.363 --> 00:03:43.808
+puts the planet at a very different place on its orbit.
+
+57
+00:03:44.252 --> 00:03:47.763
+So the paper checks 24 launch times spread over one orbit,
+
+58
+00:03:47.763 --> 00:03:50.062
+and the rule must hold at all of them.
+
+59
+00:03:50.486 --> 00:03:51.829
+With this check,
+
+60
+00:03:51.829 --> 00:03:55.944
+the smallest test radius with a definite earliest
+
+61
+00:03:55.944 --> 00:04:01.067
+launch year is 316,000 km at one fifth of the speed of light,
+
+62
+00:04:01.067 --> 00:04:03.419
+and 562,000 km at one tenth.
+
+63
+00:04:03.852 --> 00:04:09.573
+At 100,000 km, no setting gives a definite earliest launch year over the orbit.
+
+64
+00:04:10.019 --> 00:04:17.714
+In one example, the largest r₉₀ of the eight versions moves between about 83,000 and
+
+65
+00:04:17.714 --> 00:04:21.195
+144,000 km as the launch time changes.
+
+66
+00:04:21.619 --> 00:04:24.865
+The six settings that the paper checked over the orbit
+
+67
+00:04:24.865 --> 00:04:28.411
+combine those pictures with much more precise Gaia data and
+
+68
+00:04:28.411 --> 00:04:29.132
+star speeds.
+
+69
+00:04:29.552 --> 00:04:32.779
+If you check only one launch time in each year,
+
+70
+00:04:32.779 --> 00:04:37.858
+these six settings do reach 100,000 km at one fifth of the speed of light.
+
+71
+00:04:38.286 --> 00:04:44.174
+Without pictures of the planet, no combination on the list gets below 10 million km.
+
+72
+00:04:45.419 --> 00:04:47.455
+The paper is careful about its limits.
+
+73
+00:04:47.886 --> 00:04:53.649
+The r₉₀ values come from the model, and their calibration has not been verified:
+
+74
+00:04:53.649 --> 00:04:59.628
+no one has yet confirmed that a 90% circle holds the true position 90% of the time.
+
+75
+00:05:00.052 --> 00:05:02.928
+The future instrument performances are assumptions,
+
+76
+00:05:02.928 --> 00:05:06.536
+and the paper does not claim that the observations will be made.
+
+77
+00:05:06.986 --> 00:05:10.884
+It also says nothing about whether or when a mission is possible,
+
+78
+00:05:10.884 --> 00:05:12.564
+or about life on the planet.
+
+79
+00:05:13.786 --> 00:05:18.054
+In short, the paper measures how far today's knowledge is from the mark,
+
+80
+00:05:18.054 --> 00:05:20.900
+and which observations on its list come closest.
+
+81
+00:05:21.319 --> 00:05:24.064
+The paper and its files are open on Zenodo.
+
+82
+00:05:24.486 --> 00:05:28.461
+This video was made with the help of AI, and the voice is synthetic.

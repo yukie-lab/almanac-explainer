@@ -1,0 +1,7 @@
+tools/build/
+__pycache__/
+*.pyc
+*.onnx
+voices-*.bin
+.venv/
+.DS_Store

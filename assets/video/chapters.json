@@ -1,0 +1,59 @@
+{
+ "duration": 330.57,
+ "chapters": [
+  {
+   "id": "s1",
+   "title": "The question",
+   "title_ja": "問い",
+   "start": 0.0
+  },
+  {
+   "id": "s2",
+   "title": "The target plane and r₉₀",
+   "title_ja": "的の面と r₉₀",
+   "start": 35.6
+  },
+  {
+   "id": "s3",
+   "title": "The mark",
+   "title_ja": "目安",
+   "start": 63.1
+  },
+  {
+   "id": "s4",
+   "title": "What goes into the prediction",
+   "title_ja": "予測に入るもの",
+   "start": 86.97
+  },
+  {
+   "id": "s5",
+   "title": "A fair test",
+   "title_ja": "公正な試し方",
+   "start": 134.53
+  },
+  {
+   "id": "s6",
+   "title": "Today's data",
+   "title_ja": "今のデータ",
+   "start": 165.8
+  },
+  {
+   "id": "s7",
+   "title": "Possible future observations",
+   "title_ja": "将来ありうる観測",
+   "start": 195.2
+  },
+  {
+   "id": "s8",
+   "title": "What the paper does not claim",
+   "title_ja": "論文が主張しないこと",
+   "start": 285.3
+  },
+  {
+   "id": "s9",
+   "title": "Summary",
+   "title_ja": "まとめ",
+   "start": 313.67
+  }
+ ]
+}

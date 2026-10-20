@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where will Proxima b be when a probe arrives? · A plain-language guide</title>
+<meta name="description" content="A plain-language guide, with a short video, to a 2026 paper that asks how well the position of Proxima Centauri b at a probe's arrival can be known before launch. English and Japanese.">
+<meta property="og:title" content="Where will Proxima b be when a probe arrives?">
+<meta property="og:description" content="A plain-language guide, with a short video, to a 2026 research paper. English and Japanese.">
+<meta property="og:type" content="article">
+<meta name="theme-color" content="#fcfcfb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1a1a19" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='5' fill='%23e34948'/%3E%3Cellipse cx='16' cy='16' rx='13' ry='6' fill='none' stroke='%23898781' stroke-width='1.5'/%3E%3Ccircle cx='29' cy='16' r='2.5' fill='%231baf7a'/%3E%3C/svg%3E">
+<script>
+  // Choose the language before the first paint, so the other language never flashes.
+  (function () {
+    var l = "en";
+    try { var q = new URLSearchParams(location.search).get("lang"); if (q === "en" || q === "ja") l = q; else {
+      var s = localStorage.getItem("almanac-explainer-lang"); if (s === "en" || s === "ja") l = s; } } catch (e) {}
+    document.documentElement.setAttribute("data-lang", l);
+    document.documentElement.setAttribute("lang", l);
+  })();
+</script>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main"><span data-l="en" lang="en">Skip to the guide</span><span data-l="ja" lang="ja">本文へ</span></a>
+
+<header class="bar">
+  <div class="bar-in">
+    <div class="brand"><b>Proxima b</b> · <span data-l="en" lang="en">plain-language guide</span><span data-l="ja" lang="ja">やさしい解説</span></div>
+    <div class="lang" role="group" aria-label="Language / 言語">
+      <button type="button" data-set-lang="en" aria-pressed="true" lang="en">English</button>
+      <button type="button" data-set-lang="ja" aria-pressed="false" lang="ja">日本語</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <p class="kicker"><span data-l="en" lang="en">Plain-language guide to a 2026 research paper</span><span data-l="ja" lang="ja">2026 年の研究論文を、やさしく解説します</span></p>
+  <h1><span data-l="en" lang="en">Where will Proxima b be when a probe arrives?</span><span data-l="ja" lang="ja">探査機が着くとき、プロキシマ b はどこにいるか</span></h1>
+  <p class="lede" data-l="en" lang="en">Some scientists study small, fast probes that could fly past a planet of another star. To aim such a probe, we must predict before launch where the planet will be when the probe arrives. A 2026 paper asks how well we can make that prediction. This guide explains the paper in simple words. It uses only the paper's results and adds no new results.</p>
+  <p class="lede" data-l="ja" lang="ja">ほかの恒星の惑星のそばを、小さく速い探査機で通り過ぎる。そうした探査機を研究している人たちがいます。探査機を狙うには、着いたときに惑星がどこにいるかを、打ち上げの前に予測しなければなりません。2026 年のある論文は、その予測がどれだけよくできるかを問いました。このページは、その論文をやさしい言葉で解説します。使うのは論文の結果だけで、新しい結果は足していません。</p>
+  <p class="cite-line"><span data-l="en" lang="en">Paper:</span><span data-l="ja" lang="ja">論文:</span> Yukie Maeda, “How well can the position of Proxima Centauri b at a probe's arrival be known before launch?”, Zenodo, 2026. <a href="https://doi.org/10.5281/zenodo.23501923">doi:10.5281/zenodo.23501923</a></p>
+</section>
+
+<figure class="video">
+  <video id="video" controls playsinline preload="metadata" poster="assets/video/poster.jpg" width="1920" height="1080">
+    <source src="assets/video/almanac-explainer.mp4" type="video/mp4">
+    <track kind="subtitles" srclang="en" label="English" src="assets/video/subs.en.vtt" default>
+    <track kind="subtitles" srclang="ja" label="日本語" src="assets/video/subs.ja.vtt">
+  </video>
+  <figcaption>
+    <span data-l="en" lang="en">Video ({{DURATION_EN}}). English narration with a synthetic voice. Subtitles in English and Japanese: use the subtitle (CC) button of the player to change them.</span>
+    <span data-l="ja" lang="ja">動画({{DURATION_JA}})。語りは英語の合成音声です。字幕は英語と日本語があり、プレーヤーの字幕(CC)のボタンで切り替えられます。</span>
+  </figcaption>
+</figure>
+
+<details class="transcript">
+  <summary><span data-l="en" lang="en">Read the video transcript</span><span data-l="ja" lang="ja">動画の語りを文字で読む(日本語訳)</span></summary>
+  {{TRANSCRIPT}}
+</details>
+
+<section class="short" aria-labelledby="short-h">
+  <h2 id="short-h"><span data-l="en" lang="en">The short version</span><span data-l="ja" lang="ja">要点</span></h2>
+  <ol data-l="en" lang="en">
+    <li>With today's data, the circle that holds 90% of the predicted positions has a radius of 7.2 to 9.45 million km. This is about the size of the planet's orbit, and 70 to 95 times the published mark of 100,000 km.</li>
+    <li>Better data for only one input does not reach the mark.</li>
+    <li>The paper also tests a list of possible future observations. Their quality is an assumption, not a forecast.</li>
+    <li>With these future observations, and with a check at 24 launch times over one orbit of the planet, the smallest test radius with a definite earliest launch year is 316,000 km at 0.2c and 562,000 km at 0.1c. At 100,000 km, no setting gives a definite year.</li>
+    <li>Without pictures that show the planet apart from its star, no combination on the list goes below 10 million km.</li>
+  </ol>
+  <ol data-l="ja" lang="ja">
+    <li>今のデータでは、予測した位置の 90% を含む円の半径は 720 万〜945 万 km です。これは惑星の軌道くらいの大きさで、発表された目安 10 万 km の 70〜95 倍です。</li>
+    <li>どれか一つの入力だけを良くしても、目安には届きません。</li>
+    <li>論文は、将来ありうる観測のリストも試しています。その性能は仮定で、予報ではありません。</li>
+    <li>その観測があり、さらに惑星の一周の間の 24 の打ち上げ時刻で調べると、届く最も早い打ち上げ年がはっきり決まる最も小さい試しの半径は、0.2c で 31 万 6 千 km、0.1c で 56 万 2 千 km です。10 万 km では、はっきり年が決まる設定はありません。</li>
+    <li>惑星を星から離して写す撮像が無いと、リストのどの組み合わせも 1000 万 km を下回りません。</li>
+  </ol>
+</section>
+
+<article class="prose">
+
+<h2 id="question"><span class="num">1</span><span data-l="en" lang="en">The question</span><span data-l="ja" lang="ja">問い</span></h2>
+<p data-l="en" lang="en">Proxima Centauri is the nearest star to the Sun, about 4.2 light-years away. A planet, Proxima b, goes around it once in about 11.2 days.</p>
+<p data-l="ja" lang="ja">プロキシマ・ケンタウリは、太陽にいちばん近い恒星で、距離は約 4.2 光年です。その周りを、惑星プロキシマ b が約 11.2 日で一周しています。</p>
+<p data-l="en" lang="en">One published study (Eubanks et al. 2026) discusses the science that a swarm of small probes could do as they fly through the Proxima Centauri system. Even at one fifth of the speed of light (0.2c), the trip takes more than 20 years.</p>
+<p data-l="ja" lang="ja">発表された研究の一つ(Eubanks ら 2026)は、小さな探査機の群れがプロキシマ・ケンタウリの系を通り抜けながら行える科学を論じています。光の速さの 5 分の 1(0.2c)で飛んでも、旅には 20 年以上かかります。</p>
+<p data-l="en" lang="en">To aim such a flyby, we need a prediction, made before launch, of where the planet will be when the probes arrive decades later. The paper asks: how well do today's public data, and some possible future observations, fix that position?</p>
+<p data-l="ja" lang="ja">そうした通過を狙うには、何十年も後に探査機が着いたとき惑星がどこにいるかの予測が、打ち上げの前に要ります。論文の問いはこうです。今の公開データと、将来ありうるいくつかの観測で、その位置をどれだけ絞り込めるか。</p>
+{{FIG0}}
+
+<h2 id="measure"><span class="num">2</span><span data-l="en" lang="en">How the paper measures the error</span><span data-l="ja" lang="ja">誤差の測り方</span></h2>
+<p data-l="en" lang="en">Imagine a flat sheet at the planet, at right angles to the probe's path. The paper calls it the β (beta) plane. In this guide, we call it the <strong>target plane</strong>.</p>
+<p data-l="ja" lang="ja">惑星のところに、探査機の進む向きと直角に、平らな板を思い浮かべてください。論文はこれを β(ベータ)面と呼びます。このページでは<strong>的の面</strong>と呼びます。</p>
+<p data-l="en" lang="en">The data have errors. So the paper does not predict one point. It predicts many possible positions of the planet on the target plane. Together, they make a cloud.</p>
+<p data-l="ja" lang="ja">データには誤差があります。そのため論文は、一つの点を予測するのではありません。的の面の上に、惑星のありうる位置をたくさん予測します。それらが集まって、雲になります。</p>
+<p data-l="en" lang="en">Then the paper draws the smallest circle that holds 90% of the cloud. The radius of this circle is <strong>r₉₀</strong> (“r-ninety”). A small r₉₀ means a sharp prediction. A large r₉₀ means a vague one.</p>
+<p data-l="ja" lang="ja">次に、雲の 90% を含む、いちばん小さい円を描きます。この円の半径が <strong>r₉₀</strong>(アール・ナインティ)です。r₉₀ が小さければ予測は鋭く、大きければ予測はぼんやりしています。</p>
+{{FIG1}}
+
+<h2 id="mark"><span class="num">3</span><span data-l="en" lang="en">How small is small enough?</span><span data-l="ja" lang="ja">どこまで小さければ十分か</span></h2>
+<p data-l="en" lang="en">Eubanks et al. (2026) state that the total error of the planet's position needs to be about 100,000 km or less. This is about one quarter of the distance from the Earth to the Moon (384,400 km).</p>
+<p data-l="ja" lang="ja">Eubanks ら(2026)は、惑星の位置の誤差の合計を、約 10 万 km 以下にする必要があるとしています。これは、地球から月までの距離(38 万 4400 km)の約 4 分の 1 です。</p>
+<p data-l="en" lang="en">The paper uses 100,000 km as one <strong>mark</strong>. It is not the only possible requirement. So the paper also tests other radii: 13 <strong>test radii</strong> from 10,000 km to 10 million km, four in each factor of ten.</p>
+<p data-l="ja" lang="ja">論文は 10 万 km を一つの<strong>目安</strong>として使い、ただ一つの要求とはしていません。そのため、ほかの半径も試します。1 万 km から 1000 万 km までの 13 の<strong>試しの半径</strong>で、10 倍ごとに 4 つずつです。</p>
+
+<h2 id="inputs"><span class="num">4</span><span data-l="en" lang="en">What goes into the prediction</span><span data-l="ja" lang="ja">予測に入るもの</span></h2>
+<p data-l="en" lang="en">The paper uses two kinds of public data:</p>
+<p data-l="ja" lang="ja">論文は、二種類の公開データを使います。</p>
+<ul data-l="en" lang="en">
+  <li><strong>Gaia DR3</strong>: a star catalog from the Gaia space telescope of the European Space Agency. It gives the position, the distance, and the motion of Proxima on the sky.</li>
+  <li><strong>Radial velocities</strong>: measurements of how fast the star moves toward us or away from us. The planet pulls on the star, so these measurements carry information about the planet's orbit. The paper fits the public radial velocities again.</li>
+</ul>
+<ul data-l="ja" lang="ja">
+  <li><strong>ガイア DR3</strong>: 欧州宇宙機関の宇宙望遠鏡ガイアによる星の目録です。プロキシマの空での位置、距離、動きが分かります。</li>
+  <li><strong>視線速度</strong>: 星がこちらへ近づく速さや、遠ざかる速さの測定です。惑星は星を引くので、この測定には惑星の軌道の手がかりが入っています。論文は、公開されている視線速度を当て直しています。</li>
+</ul>
+<p data-l="en" lang="en">The model then carries everything forward to the time of arrival:</p>
+<p data-l="ja" lang="ja">モデルは、これらを着く時刻まで先へ進めます。</p>
+<ul data-l="en" lang="en">
+  <li>The star moves along a nearly straight path. The model adds a small, constant pull from Alpha Centauri A and B, the bright pair of stars near Proxima.</li>
+  <li>The planet moves on its orbit around the star.</li>
+  <li>In the model for future observations, the orbit of b also turns slowly. Another planet, Proxima d, and general relativity cause this turn. If the model leaves out planet d, the predicted position moves by 36,000 to 212,000 km. This is about the same size as the mark.</li>
+  <li>The probe flies in a straight line from the solar system at a constant speed. The paper uses two speeds, 0.2c and 0.1c, and launch years from 2040 to 2070, every five years. These speeds and years are assumptions for the study, not a plan.</li>
+</ul>
+<ul data-l="ja" lang="ja">
+  <li>星は、ほぼまっすぐな道筋を進みます。モデルは、プロキシマの近くにある明るい二つの星、アルファ・ケンタウリ A と B の、小さく一定の引力を加えます。</li>
+  <li>惑星は、星の周りの軌道を回ります。</li>
+  <li>将来の観測のためのモデルでは、b の軌道もゆっくり回ります。もう一つの惑星プロキシマ d と、一般相対性理論の効果によるものです。モデルから惑星 d を外すと、予測の位置は 3 万 6 千〜21 万 2 千 km ずれます。これは目安とほぼ同じ大きさです。</li>
+  <li>探査機は、太陽系から一定の速さでまっすぐ飛びます。論文は、0.2c と 0.1c の二つの速さと、2040 年から 2070 年まで 5 年ごとの打ち上げの年を使います。これらの速さと年は研究のための仮定で、計画ではありません。</li>
+</ul>
+
+<h2 id="fair"><span class="num">5</span><span data-l="en" lang="en">A fair test</span><span data-l="ja" lang="ja">公正な試し方</span></h2>
+<p data-l="en" lang="en">The paper fixed its rules in writing before it ran each computation. It also uses eight versions of the model. They make different choices about the planet, the star, and the orientation of the orbit.</p>
+<p data-l="ja" lang="ja">論文は、それぞれの計算を走らせる前に、決まりを書いて固定しました。また、モデルを 8 通り使います。8 通りは、惑星・星・軌道の向きについて、違う選び方をしています。</p>
+<p data-l="en" lang="en">For each test radius R, launch year, and speed, the result is one of three answers:</p>
+<p data-l="ja" lang="ja">試しの半径 R・打ち上げの年・速さの組ごとに、答えは次の三つのどれかになります。</p>
+<ul data-l="en" lang="en">
+  <li><strong>Reached</strong>: r₉₀ is R or less in all eight versions.</li>
+  <li><strong>Not reached</strong>: r₉₀ is more than R in all eight versions.</li>
+  <li><strong>Undecided</strong>: the versions disagree. Undecided never means “not reached”.</li>
+</ul>
+<ul data-l="ja" lang="ja">
+  <li><strong>届いた</strong>: 8 通りの全てで、r₉₀ が R 以下。</li>
+  <li><strong>届かない</strong>: 8 通りの全てで、r₉₀ が R より大きい。</li>
+  <li><strong>判定不能</strong>: 8 通りの答えが分かれた。判定不能は「届かない」という意味ではありません。</li>
+</ul>
+<p data-l="en" lang="en">For each test radius, the paper then finds the <strong>earliest launch year</strong> on its list that is reached. If an earlier year is undecided, this earliest year is also undecided.</p>
+<p data-l="ja" lang="ja">次に論文は、試しの半径ごとに、リストの中で届いた<strong>最も早い打ち上げ年</strong>を求めます。それより前の年に判定不能があれば、この最も早い年も判定不能になります。</p>
+{{FIG2}}
+
+<h2 id="today"><span class="num">6</span><span data-l="en" lang="en">Result 1: today's data</span><span data-l="ja" lang="ja">結果 1: 今のデータ</span></h2>
+<p data-l="en" lang="en">With today's data, at the launch years on the list, r₉₀ is 7.2 to 9.45 million km. This is about the size of the planet's orbit, and about 70 to 95 times the 100,000 km mark.</p>
+<p data-l="ja" lang="ja">今のデータでは、リストにある打ち上げの年で、r₉₀ は 720 万〜945 万 km です。これは惑星の軌道くらいの大きさで、10 万 km の目安の約 70〜95 倍です。</p>
+<p data-l="en" lang="en">The paper also asks what happens if only one input becomes better and the others stay the same. No single input reaches the mark alone.</p>
+<p data-l="ja" lang="ja">論文は、一つの入力だけが良くなり、ほかはそのままのときも調べました。どの入力も、一つだけでは目安に届きません。</p>
+<p data-l="en" lang="en">Among the largest parts of the error is the orientation of the orbit: how the orbit is turned in space. Radial velocities do not measure it.</p>
+<p data-l="ja" lang="ja">誤差のいちばん大きい部分の一つは、軌道の向き、つまり軌道が空間でどちらを向いているかです。視線速度は、これを測りません。</p>
+
+<h2 id="future"><span class="num">7</span><span data-l="en" lang="en">Result 2: possible future observations</span><span data-l="ja" lang="ja">結果 2: 将来ありうる観測</span></h2>
+<p data-l="en" lang="en">Next, the paper adds future observations to today's data. It uses a declared list of 93 settings. Each setting is a combination of these:</p>
+<p data-l="ja" lang="ja">次に論文は、今のデータに将来の観測を加えます。宣言した 93 の設定のリストを使います。設定の一つ一つは、次のものの組み合わせです。</p>
+<ul data-l="en" lang="en">
+  <li>pictures that show the planet apart from its star (in the paper: imaging that resolves the planet),</li>
+  <li>more precise Gaia data,</li>
+  <li>more radial velocities,</li>
+  <li>a more precise speed of the star toward us (in the paper: the kinematic radial velocity).</li>
+</ul>
+<ul data-l="ja" lang="ja">
+  <li>惑星を星から離して写す撮像(論文では imaging that resolves the planet)</li>
+  <li>より精しいガイアのデータ</li>
+  <li>より多くの視線速度</li>
+  <li>星がこちらへ向かう速さの、より精しい値(論文では kinematic radial velocity)</li>
+</ul>
+<p data-l="en" lang="en">The quality of each future instrument is an assumption, not a forecast. The paper does not claim that these observations will be made.</p>
+<p data-l="ja" lang="ja">将来の装置の性能は仮定で、予報ではありません。論文は、これらの観測が行われるとは主張しません。</p>
+
+<h3><span data-l="en" lang="en">One more problem: the planet moves fast</span><span data-l="ja" lang="ja">もう一つの問題: 惑星は速く動く</span></h3>
+<p data-l="en" lang="en">The planet goes around its star in about 11.2 days. So a change of a few days in the arrival time puts the planet at a very different place on its orbit. The list has one launch time in each launch year. So the paper also moved each launch by small steps across one full orbit: 24 launch times, about 0.47 days apart. A result over the orbit counts as reached only if it is reached at all 24 times.</p>
+<p data-l="ja" lang="ja">惑星は約 11.2 日で星を一周します。そのため、着く時刻が数日ずれると、惑星は軌道のまったく違う所にいます。リストには、各年に打ち上げの時刻が一つだけあります。そこで論文は、それぞれの打ち上げを、軌道の一周にわたって小さくずらしました。約 0.47 日おきの 24 の打ち上げ時刻です。一周を通しての結果を「届いた」と数えるのは、24 の全てで届いたときだけです。</p>
+<p data-l="en" lang="en">With this check over the orbit:</p>
+<p data-l="ja" lang="ja">一周を通して調べると、次のようになります。</p>
+<ul data-l="en" lang="en">
+  <li>The smallest test radius with a definite earliest launch year is <strong>316,000 km at 0.2c</strong> and <strong>562,000 km at 0.1c</strong>.</li>
+  <li>At 100,000 km, no setting on the list gives a definite earliest launch year.</li>
+  <li>The six settings that the paper checked over the orbit combine pictures of the planet with much more precise Gaia data and much more precise speeds of the star toward us. If you check only one launch time in each year, these six settings do reach 100,000 km at 0.2c.</li>
+  <li>Without pictures of the planet, no combination on the list goes below 10 million km, with one launch time per year or over the orbit.</li>
+</ul>
+<ul data-l="ja" lang="ja">
+  <li>届く最も早い打ち上げ年がはっきり決まる、最も小さい試しの半径は、<strong>0.2c で 31 万 6 千 km</strong>、<strong>0.1c で 56 万 2 千 km</strong> です。</li>
+  <li>10 万 km では、リストのどの設定でも、届く最も早い打ち上げ年ははっきり決まりません。</li>
+  <li>論文が一周を通して調べた 6 つの設定は、惑星の撮像に、はるかに精しいガイアのデータと、星がこちらへ向かう速さのはるかに精しい値を組み合わせたものです。各年の打ち上げの時刻を一つだけ調べるなら、この 6 つの設定は 0.2c で 10 万 km に届きます。</li>
+  <li>惑星の撮像が無いと、各年に一つの時刻で調べても一周を通して調べても、リストのどの組み合わせも 1000 万 km を下回りません。</li>
+</ul>
+{{FIG4}}
+
+<h3><span data-l="en" lang="en">All results on one scale</span><span data-l="ja" lang="ja">全ての結果を一本の目盛りで</span></h3>
+{{FIG3}}
+<details>
+  <summary><span data-l="en" lang="en">Show the numbers as a table</span><span data-l="ja" lang="ja">数を表で見る</span></summary>
+  <div class="table-scroll">
+  <table class="nums" data-l="en" lang="en">
+    <thead><tr><th>Case</th><th>0.2c</th><th>0.1c</th></tr></thead>
+    <tbody>
+      <tr><td>Today's data: r₉₀ at the launch years on the list</td><td class="n" colspan="2">7.2 to 9.45 million km (both speeds together)</td></tr>
+      <tr><td>Future observations, one launch time per year: smallest test radius reached (the six settings)</td><td class="n">100,000 km</td><td class="n">316,000 km</td></tr>
+      <tr><td>Future observations, 24 launch times over one orbit: smallest test radius with a definite earliest launch year (the six settings)</td><td class="n">316,000 km</td><td class="n">562,000 km</td></tr>
+      <tr><td>Future observations without pictures of the planet (all combinations on the list)</td><td class="n">10 million km</td><td class="n">10 million km</td></tr>
+    </tbody>
+  </table>
+  <table class="nums" data-l="ja" lang="ja">
+    <thead><tr><th>場合</th><th>0.2c</th><th>0.1c</th></tr></thead>
+    <tbody>
+      <tr><td>今のデータ: リストにある打ち上げの年での r₉₀</td><td class="n" colspan="2">720 万〜945 万 km(二つの速さを合わせて)</td></tr>
+      <tr><td>将来の観測、各年に一つの打ち上げ時刻: 届いた最も小さい試しの半径(6 つの設定)</td><td class="n">10 万 km</td><td class="n">31 万 6 千 km</td></tr>
+      <tr><td>将来の観測、一周にわたる 24 の打ち上げ時刻: 届く最も早い打ち上げ年がはっきり決まる最も小さい試しの半径(6 つの設定)</td><td class="n">31 万 6 千 km</td><td class="n">56 万 2 千 km</td></tr>
+      <tr><td>惑星の撮像の無い将来の観測(リストの全ての組み合わせ)</td><td class="n">1000 万 km</td><td class="n">1000 万 km</td></tr>
+    </tbody>
+  </table>
+  </div>
+</details>
+
+<h2 id="limits"><span class="num">8</span><span data-l="en" lang="en">What the paper does not claim</span><span data-l="ja" lang="ja">論文が主張しないこと</span></h2>
+<ul data-l="en" lang="en">
+  <li>The r₉₀ values are quantiles of the predictions of the declared model, not intervals whose calibration has been verified. In other words, no one has yet confirmed that a 90% circle holds the true position 90% of the time.</li>
+  <li>Future instrument performances are assumptions, not forecasts. The paper does not claim that the observations will be made.</li>
+  <li>The checks over the orbit use 24 launch times. The paper makes no claim about the launch times between them.</li>
+  <li>The paper does not discuss whether or when a mission is possible, the design of a probe swarm, the probe's path or its navigation after launch, whether the planet could support life, or planet candidates that are in dispute.</li>
+</ul>
+<ul data-l="ja" lang="ja">
+  <li>r₉₀ の値は、宣言したモデルの予測の分位点で、較正を確かめた区間ではありません。言い換えると、90% の円が本当に 90% の割合で真の位置を含むかは、まだ誰も確かめていません。</li>
+  <li>将来の装置の性能は仮定で、予報ではありません。論文は、その観測が行われるとは主張しません。</li>
+  <li>一周を通しての確かめは、24 の打ち上げ時刻を使います。その間の時刻について、論文は何も主張しません。</li>
+  <li>論文は、任務ができるかどうかやその時期、探査機の群れの設計、探査機の道筋や打ち上げの後の航法、惑星が生命を支えられるか、存在が争われている惑星の候補については、論じていません。</li>
+</ul>
+
+<h2 id="words"><span class="num">9</span><span data-l="en" lang="en">Words used in this guide</span><span data-l="ja" lang="ja">このページの言葉</span></h2>
+<dl class="gloss" data-l="en" lang="en">
+  <dt>c</dt><dd>The speed of light, about 300,000 km per second. 0.2c is one fifth of it.</dd>
+  <dt>Light-year</dt><dd>The distance that light travels in one year, about 9.46 million million km.</dd>
+  <dt>Gaia DR3</dt><dd>The third data release of the Gaia space telescope of the European Space Agency.</dd>
+  <dt>Radial velocity</dt><dd>The speed of a star toward us or away from us, measured from its light.</dd>
+  <dt>Target plane (β plane)</dt><dd>A flat sheet at the planet, at right angles to the probe's path.</dd>
+  <dt>r₉₀</dt><dd>The radius of the smallest circle that holds 90% of the predicted positions on the target plane.</dd>
+  <dt>Mark</dt><dd>100,000 km, one published requirement (Eubanks et al. 2026). The paper uses it as one mark, not as the only requirement.</dd>
+  <dt>Test radius R</dt><dd>One of the 13 radii from 10,000 km to 10 million km that the paper tests.</dd>
+  <dt>Reached, not reached, undecided</dt><dd>The three answers of the decision rule (Section 5).</dd>
+  <dt>Earliest launch year</dt><dd>The first launch year on the list (2040, 2045, …, 2070) that reaches a test radius.</dd>
+  <dt>Imaging that resolves the planet</dt><dd>Pictures in which the planet shows as a separate point next to its star.</dd>
+  <dt>Calibration</dt><dd>A check that a 90% circle really holds the true position 90% of the time.</dd>
+</dl>
+<dl class="gloss" data-l="ja" lang="ja">
+  <dt>c</dt><dd>光の速さで、毎秒約 30 万 km。0.2c はその 5 分の 1 です。</dd>
+  <dt>光年</dt><dd>光が 1 年に進む距離で、約 9 兆 4600 億 km です。</dd>
+  <dt>ガイア DR3</dt><dd>欧州宇宙機関の宇宙望遠鏡ガイアの、3 回目のデータの公開です。</dd>
+  <dt>視線速度</dt><dd>星がこちらへ近づく、または遠ざかる速さ。星の光から測ります。</dd>
+  <dt>的の面(β 面)</dt><dd>惑星のところにある、探査機の進む向きと直角の平らな板。</dd>
+  <dt>r₉₀</dt><dd>的の面の上で、予測した位置の 90% を含む最も小さい円の半径。</dd>
+  <dt>目安</dt><dd>10 万 km。発表された要求の一つです(Eubanks ら 2026)。論文はこれを一つの目安として使い、ただ一つの要求とはしていません。</dd>
+  <dt>試しの半径 R</dt><dd>論文が試す、1 万 km から 1000 万 km までの 13 の半径の一つ。</dd>
+  <dt>届いた・届かない・判定不能</dt><dd>決め方の決まりの三つの答え(5 節)。</dd>
+  <dt>最も早い打ち上げ年</dt><dd>リスト(2040 年、2045 年、…、2070 年)の中で、試しの半径に届いた最初の打ち上げの年。</dd>
+  <dt>惑星を星から離して写す撮像</dt><dd>惑星が、星の隣に別の点として写る画像。</dd>
+  <dt>較正</dt><dd>90% の円が本当に 90% の割合で真の位置を含むかの確かめ。</dd>
+</dl>
+
+<h2 id="paper"><span class="num">10</span><span data-l="en" lang="en">Read the paper</span><span data-l="ja" lang="ja">論文を読む</span></h2>
+<p class="citation">Maeda, Y. (2026). <em>How well can the position of Proxima Centauri b at a probe's arrival be known before launch?</em> (Version 0.4). Zenodo. <a href="https://doi.org/10.5281/zenodo.23501923">https://doi.org/10.5281/zenodo.23501923</a></p>
+<p data-l="en" lang="en">The Zenodo record holds the paper (PDF) and an archive with the inputs, scripts, and records of the computations. The paper is in English and is under the CC BY 4.0 license.</p>
+<p data-l="ja" lang="ja">Zenodo の記録には、論文(PDF)と、計算の入力・台本・記録をまとめた保管が入っています。論文は英語で、ライセンスは CC BY 4.0 です。</p>
+
+<h2 id="about"><span class="num">11</span><span data-l="en" lang="en">About this page</span><span data-l="ja" lang="ja">このページについて</span></h2>
+<p data-l="en" lang="en">This page and its video explain the paper for a general audience. They use only the paper's own results. If this page and the paper differ, the paper is correct. The Japanese version is a translation of the English version.</p>
+<p data-l="ja" lang="ja">このページと動画は、一般の方に向けて論文を解説するものです。使っているのは論文自身の結果だけです。このページと論文が違うときは、論文が正しいです。日本語版は、英語版の翻訳です。</p>
+<p data-l="en" lang="en"><strong>Made with AI.</strong> Claude, an AI model by Anthropic, wrote the text, the figures, the video script, the animation code, and this page, at the request of the paper's author.</p>
+<p data-l="ja" lang="ja"><strong>AI で作りました。</strong>文章・図・動画の台本・アニメーションのコード・このページは、論文の著者の依頼で、Anthropic の AI モデル Claude が書きました。</p>
+<p data-l="en" lang="en">The paper also states its own use of AI. An AI system, Claude Code by Anthropic, wrote the computation scripts, ran the computations, wrote the text, and made the figures and tables. Responsibility for the final text lies entirely with the author. The author checked the typeset pages, figures, and metadata by eye. No human has checked the computations; only the AI review rounds checked them (see the acknowledgments and Appendix E of the paper).</p>
+<p data-l="ja" lang="ja">論文も、AI の使い方を自ら書いています。計算の台本を書いて計算を走らせ、本文を書き、図と表を作ったのは、Anthropic の AI システム Claude Code です。最終の本文の責任は、すべて著者にあります。著者は、組版した頁・図・メタデータを目で確かめました。計算を人は確かめておらず、確かめたのは AI による審査だけです(論文の謝辞と付録 E)。</p>
+<p data-l="en" lang="en"><strong>Video.</strong> The animation uses Manim Community Edition. The voice is synthetic: Kokoro-82M (Apache License 2.0), run with kokoro-onnx. The video font is Computer Modern (CMU Serif).</p>
+<p data-l="ja" lang="ja"><strong>動画。</strong>アニメーションは Manim Community Edition で作りました。声は合成音声で、Kokoro-82M(Apache License 2.0)を kokoro-onnx で動かしました。動画の文字は Computer Modern(CMU Serif)です。</p>
+<p data-l="en" lang="en"><strong>License.</strong> The text, figures, and video of this page are available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+<p data-l="ja" lang="ja"><strong>ライセンス。</strong>このページの文章・図・動画は、<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC BY 4.0</a> で使えます。</p>
+
+</article>
+</main>
+
+<footer>
+  <div class="in">
+    <span data-l="en" lang="en">A plain-language guide to Maeda (2026), doi:10.5281/zenodo.23501923. Text, figures, and video: CC BY 4.0.</span>
+    <span data-l="ja" lang="ja">前田(2026、doi:10.5281/zenodo.23501923)のやさしい解説。文章・図・動画: CC BY 4.0。</span>
+  </div>
+</footer>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>
